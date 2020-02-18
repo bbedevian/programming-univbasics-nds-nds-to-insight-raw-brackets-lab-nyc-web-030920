@@ -14,5 +14,6 @@ def directors_totals(nds)
   end
   new_hash[:directors_database[dir]] = dir_total
   dir +=1
-  nil
+end
+new_hash
 end
