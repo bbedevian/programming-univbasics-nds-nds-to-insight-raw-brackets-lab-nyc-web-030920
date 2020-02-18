@@ -8,7 +8,7 @@ def directors_totals(nds)
   dir_name = nds[dir_index][:name]
   new_hash[dir_name] = 0
   i = 0
-  while i < nds[director_index][:movies].length do
+  while i < nds[dir_index][:movies].length do
     new_hash[dir_name] += nds[dir_index][:movies][i][:worldwide_gross]
     i+=1
   end
