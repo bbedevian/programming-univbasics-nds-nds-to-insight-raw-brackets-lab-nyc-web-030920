@@ -8,6 +8,9 @@ def directors_totals(nds)
   i = 0
   while i < movies.length do
     ww_gross = movies[i][:worldwide_gross]
-    
+    dir_total += ww_gross
+    i+=1
+  end
+  return dir_total
   nil
 end
