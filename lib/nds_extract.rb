@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
 director_total = 0 
-  movies = directors_database[0][:movies]
+  movies = directors_database[0][:worldwide_gross]
   index = 0
 
   while index < ss_movies.length do
