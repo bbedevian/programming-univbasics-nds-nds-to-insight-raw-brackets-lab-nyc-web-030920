@@ -6,6 +6,7 @@ def directors_totals(nds)
   dir_total= 0
   dir = 0
   movies = directors_database[dir][:movies]
+  while dir < directors_database.length do 
   i = 0
   while i < movies.length do
     ww_gross = movies[i][:worldwide_gross]
