@@ -12,6 +12,6 @@ def directors_totals(nds)
     dir_total += ww_gross
     i+=1
   end
-  new_hash << [directors_database[dir]: 
+  new_hash[directors_database[dir] 
   nil
 end
