@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  new hash = {}
+  new_hash = {}
   dir_total= 0
   dir = 0
   movies = directors_database[dir][:movies]
