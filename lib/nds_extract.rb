@@ -12,7 +12,6 @@ def directors_totals(nds)
     dir_total += nds[director_index][:movies][i][:worldwide_gross]
     i+=1
   end
-  new_hash[:nds[dir_index]] = dir_total
   dir +=1
 end
 new_hash
