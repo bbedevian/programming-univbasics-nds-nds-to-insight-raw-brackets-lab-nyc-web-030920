@@ -11,6 +11,6 @@ def directors_totals(nds)
     dir_total += ww_gross
     i+=1
   end
-  return dir_total
+  puts "#{" dir_total
   nil
 end
